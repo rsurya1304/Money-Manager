@@ -1,0 +1,27 @@
+.transaction-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-top: none;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+.title {
+  width: 35%;
+}
+
+.amount {
+  width: 30%;
+}
+
+.type {
+  width: 25%;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}

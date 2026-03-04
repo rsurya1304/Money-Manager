@@ -1,0 +1,42 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.balance {
+  background-color: #ecfccb;
+}
+
+.income {
+  background-color: #cffafe;
+}
+
+.expenses {
+  background-color: #ede9fe;
+}
+
+@media screen and (min-width: 768px) {
+  .details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card {
+    width: 30%;
+  }
+}
